@@ -6,6 +6,7 @@ import numpy as np
 from datetime import datetime
 import face_recognition
 import os
+import speech_recognition as sr
 
 # Function to recognize speech
 def recognize_present(timeout=5):
